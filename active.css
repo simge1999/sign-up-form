@@ -1,0 +1,61 @@
+body{
+	background: url(/Users/simge/OneDrive/Masaüstü/images/bg-intro-desktop.png);
+}
+*{box-sizing: border-box;}
+.second{
+	display: inline-grid;
+	position: absolute;
+	left: 650px;
+	top: 140px;
+	border: 1px solid;
+	justify-items: center;
+	width: 380px;
+	height: 380px;
+	border-radius: 8px;
+	background-color: white;
+	border-style: hidden;
+	padding: 15px;
+}
+abbr{
+	display:flex;
+	position: absolute;
+	left: 650px;
+	top: 80px;
+	width: 380px;
+	height: 50px;
+	border: hidden;
+	background-color:rebeccapurple;
+	border-radius: 8px;
+	justify-content: center;
+	padding-top: 15px;
+	color: white;
+}
+.first{
+	margin-left: 180px;
+	margin-top: 140px;
+	color: white;
+}
+input{
+	height: 40px;
+	width: 320px;
+	border-radius: 5px;
+	border-style: ridge;
+	 line-height: 1;
+}
+h1{
+	font-size: 50px;
+}
+.submit{
+	background-color:  hsl(154, 59%, 51%);
+	width: 320px;
+	height: 40px;
+	border-radius: 10px;
+	border-style: hidden;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 18px;
+}
+a{
+	color:  deeppink;
+}
